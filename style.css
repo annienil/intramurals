@@ -1,0 +1,101 @@
+h1 {
+    fill: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 1
+}
+
+h2 {
+    fill: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1
+}
+
+.legendLabel {
+    fill: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.9
+}
+
+.legendLabelSelected {
+    fill: 'black';
+    font-weight: 600;
+    opacity: 1;
+}
+
+.legendTitle {
+    fill: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    opacity: 1
+}
+
+/* Todo: add styles */
+.axis line {
+    fill: none;
+    opacity: 0.2;
+}
+
+.axis text, .axisLabel{
+    fill: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 11px;
+    font-weight: 530;
+    opacity: 0.9
+}
+
+.axisLabel-selected {
+    opacity: 1;
+    font-size: 13;
+    font-weight: 750;
+}
+
+.pointHovered {
+    stroke:#09090a;
+    stroke-width: 1.5;
+}
+
+/* Tooltip */
+#tooltip {
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+    border: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 8px;
+    min-width: 160px;
+    color: #333;
+  }
+.tooltip-title {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+  }
+#tooltip ul {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+  }
+
+.barYearReg {
+    stroke-width: 0;
+}
+
+.bar-hovered {
+    stroke-width: 1.5;
+}
+
+.bar-selected {
+    stroke: #333;
+    stroke-width: 3;
+    stroke-opacity: 0.7;
+}
+
